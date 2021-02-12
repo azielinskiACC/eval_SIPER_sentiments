@@ -39,6 +39,8 @@ We seek to compute the sentiment for each sentence for each document language-wi
 | :------------ |:-------:| -----:|-----------------------------------------------------------------------------------------------------:|
 | 2006-304.cermtxt    | 6 |institution, use, new, ways, research, results | Has SPARK helped your institution discover and use new ways of communicating research results to a broader audience? |
 | 2015-478.cermtxt    | 7 | aims, include, developing, integrating, design, management, fit | Given that the aims of the Design Service include developing the capability of businesses by integrating design and innovation into business management systems and strategies, this is seen to fit with Government strategies.| 
+| 2017-405.cermtxt    | 2 | list, transparent | No list of consultees is given so there is no transparent justification for this assumptions. | 
+
 
 	
 
