@@ -22,11 +22,12 @@ The state-of-the-art for the SST seems to be around 88% accuracy for the binary 
 With the provided code the sentiment and confidence can be constructed from the SIPER evaluation reports.
 
 * **LanguageDetectionTIKA.java:** For classification of documents based on n-grams and word sets based on TIKA, a language detection tool for 18 languages. Files are read from a directory and split into subdirecrtory by language. [https://www.tutorialspoint.com/tika/tika_language_detection.htm]
-* **concepts_k500_50.R:** Extracts concepts from the structural topic model output, the number of words, topics, and FREX weighing can be adjusted in the code to get at the differend K/FREX scenarios.
+* **GetSentencesFittingPerformanceCategories.java:** Extracts sentences from individual SIPER documents that contain a term from the performance thesaurus.
 * **proquest-skipgrams.py:** Code to learn the concept embeddings to find out which are distal or proximal linkages.
 * **obtain_innovation_years_proquest_msearch_chunks_only_hits_filtered.py:** Looks up each dyad and dumps when it was first introduced, introduced thesis ID and future uptakes for that dyad.
 * **merge_innovations_uptakes_files.py:** Aggregates uptakes etc. by thesis ID.
 * **merge_innovations_uptakes_files.py:** Runs Structural Topic Models at specified range of K (50-1000 in the paper).
+* **concepts_k500_50.R:** Extracts concepts from the structural topic model output, the number of words, topics, and FREX weighing can be adjusted in the code to get at the differend K/FREX scenarios.
 
 ## Logic for computing novelty and uptake
 We seek to compute the sentiment for each sentence for each document language-wise. To find the uptake of an evaluation concept, we first find the . This logic an be implemented in many ways based on your needs. Below we point to one such implementation that was suited for compute infrastructure. Note that the below implementation by its design requires customization because of the heavy setup needed. We chose this approach because envisioned future projects that needed this anyways where we needed efficient ways of identifying evaluation cartegories a given set of terms.
@@ -35,13 +36,13 @@ We implement the above by ... In particular, we r. The first is
 We had to do this in chunks because of restricted memory/compute requirements. The outputs of these are then just aggregated across each thesis to obtain (a) The number of links (b) the total uptakes of dyads and the (c) mean distal score introduced by the thesis.
 
 ## Data
-For the concepts extracted for the K = 500 LDA Topic Model where we equally balance frequency and exclusivity (which we extract in concepts_k500_50.R), please see k500_wordcouds_n_to_n.zip for visualizations or frexconcepts_k500_50.rda for the data (second element in the list).
-
 ### For raw data 
 * SIPER Policy Evaluation Database: https://www.risis2.eu/2019/08/26/siper-worldwide-policy-evaluation-database/
-
 Figure 2.
 ![foxdemo](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/SiperLanguagesData.png)
+### For Performance Ontology/Thesaurus: 
+Figure 3.
+![foxdemo2](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/PerformanceCategories.png)
 
 
 ### Papers:
