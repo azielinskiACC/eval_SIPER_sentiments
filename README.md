@@ -29,10 +29,10 @@ We implement the above by building a search engine that returns documents (these
 For the concepts extracted for the K = 500 LDA Topic Model where we equally balance frequency and exclusivity (which we extract in concepts_k500_50.R), please see k500_wordcouds_n_to_n.zip for visualizations or frexconcepts_k500_50.rda for the data (second element in the list).
 
 ### For raw data 
-* SIPER Repository: https://www.elsevier.com/en-in/solutions/scopus
+* SIPER Policy Evaluation Database: https://www.risis2.eu/2019/08/26/siper-worldwide-policy-evaluation-database/
 
 Figure 2.
-(https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/SiperLanguagesData.png)
+!(https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/SiperLanguagesData.png)
 
 ### Research Institutes:
 * [Link to Fraunhofer Institutes] []
