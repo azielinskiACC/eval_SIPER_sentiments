@@ -22,7 +22,7 @@ The state-of-the-art for the SST seems to be around 88% accuracy for the binary 
 With the provided code the sentiment and confidence can be constructed from the SIPER evaluation reports.
 
 * **LanguageDetectionTIKA.java:** For classification of documents based on n-grams and word sets based on TIKA, a language detection tool for 18 languages. Files are read from a directory and split into subdirecrtory by language. [https://www.tutorialspoint.com/tika/tika_language_detection.htm]
-* **GetSentencesFittingPerformanceCategories.java:** Extracts sentences from individual SIPER documents that contain a term from the performance thesaurus.
+* **GetSentencesFittingPerformanceCategories.java:** Extracts all sentences from a directory of SIPER documents that have at least one term in common with the performance thesaurus.
 * **proquest-skipgrams.py:** Code to learn the concept embeddings to find out which are distal or proximal linkages.
 * **obtain_innovation_years_proquest_msearch_chunks_only_hits_filtered.py:** Looks up each dyad and dumps when it was first introduced, introduced thesis ID and future uptakes for that dyad.
 * **merge_innovations_uptakes_files.py:** Aggregates uptakes etc. by thesis ID.
