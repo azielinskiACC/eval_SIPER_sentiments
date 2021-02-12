@@ -1,5 +1,5 @@
 # The Sentiment Analysis for SIPER Evaluation Reports
-This repository contains code and data associated with “SIPER Projectin ISDEC.” PDF can be found here
+This repository contains code and data associated with “SIPER Project in ISDEC.” PDF can be found here
 
 If you use any of the code or ideas presented here, please cite our paper:
 * TODO
@@ -8,13 +8,12 @@ If you use any of the code or ideas presented here, please cite our paper:
 By analyzing data from the SIPER repository tracts in Scopus from 2010 - 2018, this paper finds that the Rao Index suffers from high fluctuations that make it an unreliable indicator for science when applied fully automatically. 
 The sensitivity of parameter tuning for the underlying LDA model may partly explain divergencies when measrung Rao across different FH and MPG institutes.
 
-picture Figure 1. Distribution of Languages in the SIPER Corpus.
-![DATA](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/SiperLanguagesData.png)
+
 
 ## Code
 With the provided code the sentiment and confidence can be constructed from the SIPER evaluation reports.
 
-* **LanguageDetectionTIKA.java:** For classification of documents based on n-grams and word sets based on TIKA, a language detection tool for 18 languages. Files are read from a directory and split into subdirecrtory by language.
+* **LanguageDetectionTIKA.java:** For classification of documents based on n-grams and word sets based on TIKA, a language detection tool for 18 languages. Files are read from a directory and split into subdirecrtory by language. [Link to TIKA] [https://www.tutorialspoint.com/tika/tika_language_detection.htm]
 * **concepts_k500_50.R:** Extracts concepts from the structural topic model output, the number of words, topics, and FREX weighing can be adjusted in the code to get at the differend K/FREX scenarios.
 * **proquest-skipgrams.py:** Code to learn the concept embeddings to find out which are distal or proximal linkages.
 * **obtain_innovation_years_proquest_msearch_chunks_only_hits_filtered.py:** Looks up each dyad and dumps when it was first introduced, introduced thesis ID and future uptakes for that dyad.
@@ -30,8 +29,10 @@ We implement the above by building a search engine that returns documents (these
 For the concepts extracted for the K = 500 LDA Topic Model where we equally balance frequency and exclusivity (which we extract in concepts_k500_50.R), please see k500_wordcouds_n_to_n.zip for visualizations or frexconcepts_k500_50.rda for the data (second element in the list).
 
 ### For raw data 
-* Scopus: https://www.elsevier.com/en-in/solutions/scopus
-* ASJC Codes: https://service.elsevier.com/app/answers/detail/a_id/15181/supporthub/scopus/
+* SIPER Repository: https://www.elsevier.com/en-in/solutions/scopus
+
+Figure 2.
+(https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/SiperLanguagesData.png)
 
 ### Research Institutes:
 * [Link to Fraunhofer Institutes] []
