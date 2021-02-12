@@ -13,7 +13,7 @@ The sensitivity of parameter tuning for the underlying LDA model may partly expl
 ## Code
 With the provided code the sentiment and confidence can be constructed from the SIPER evaluation reports.
 
-* **LanguageDetectionTIKA.java:** For classification of documents based on n-grams and word sets based on TIKA, a language detection tool for 18 languages. Files are read from a directory and split into subdirecrtory by language. [Link to TIKA] [https://www.tutorialspoint.com/tika/tika_language_detection.htm]
+* **LanguageDetectionTIKA.java:** For classification of documents based on n-grams and word sets based on TIKA, a language detection tool for 18 languages. Files are read from a directory and split into subdirecrtory by language. [https://www.tutorialspoint.com/tika/tika_language_detection.htm]
 * **concepts_k500_50.R:** Extracts concepts from the structural topic model output, the number of words, topics, and FREX weighing can be adjusted in the code to get at the differend K/FREX scenarios.
 * **proquest-skipgrams.py:** Code to learn the concept embeddings to find out which are distal or proximal linkages.
 * **obtain_innovation_years_proquest_msearch_chunks_only_hits_filtered.py:** Looks up each dyad and dumps when it was first introduced, introduced thesis ID and future uptakes for that dyad.
@@ -32,7 +32,8 @@ For the concepts extracted for the K = 500 LDA Topic Model where we equally bala
 * SIPER Policy Evaluation Database: https://www.risis2.eu/2019/08/26/siper-worldwide-policy-evaluation-database/
 
 Figure 2.
-!(https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/SiperLanguagesData.png)
+![foxdemo](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/SiperLanguagesData.png)
+
 
 ### Research Institutes:
 * [Link to Fraunhofer Institutes] []
