@@ -9,7 +9,7 @@ By analyzing data from the SIPER repository tracts in Scopus from 2010 - 2018, t
 The sensitivity of parameter tuning for the underlying LDA model may partly explain divergencies when measrung Rao across different FH and MPG institutes.
 
 picture Figure 1. Distribution of Languages in the SIPER Corpus.
-![DATA](https://github.com/azielinskiACC/eval_SIPER_sentiments/SiperLanguagesData.png)
+![DATA](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/SiperLanguagesData.png)
 
 ## Code
 With the provided code the sentiment and confidence can be constructed from the SIPER evaluation reports.
