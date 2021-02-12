@@ -32,6 +32,15 @@ With the provided code the sentiment and confidence can be constructed from the 
 ## Logic for computing novelty and uptake
 We seek to compute the sentiment for each sentence for each document language-wise. To find the uptake of an evaluation concept, we first find the . This logic an be implemented in many ways based on your needs. Below we point to one such implementation that was suited for compute infrastructure. Note that the below implementation by its design requires customization because of the heavy setup needed. We chose this approach because envisioned future projects that needed this anyways where we needed efficient ways of identifying evaluation cartegories a given set of terms.
 
+* GetSentencesFittingPerformanceCategories.java
+196363 Hits (sentences) have been extracted, containing one or more hits. Am example is displayed below:
+
+| Filename  | #Hits  | Terms | Sentence |
+| :------------ |:-------:| -----:|-----------------------------------------------------------------------------------------------------:|
+| 2006-304.cermtxt    | 6 |institution, use, new, ways, research, results | Has SPARK helped your institution discover and use new ways of communicating research results to a broader audience? |
+	
+
+
 We implement the above by ... In particular, we r. The first is 
 We had to do this in chunks because of restricted memory/compute requirements. The outputs of these are then just aggregated across each thesis to obtain (a) The number of links (b) the total uptakes of dyads and the (c) mean distal score introduced by the thesis.
 
