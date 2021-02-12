@@ -1,5 +1,4 @@
-# eval_SIPER_sentiments
-The Sentiment Analysis for SIPER Evaluation Reports
+# The Sentiment Analysis for SIPER Evaluation Reports
 This repository contains code and data associated with “SIPER Projectin ISDEC.” PDF can be found here
 
 If you use any of the code or ideas presented here, please cite our paper:
@@ -9,8 +8,8 @@ If you use any of the code or ideas presented here, please cite our paper:
 By analyzing data from the SIPER repository tracts in Scopus from 2010 - 2018, this paper finds that the Rao Index suffers from high fluctuations that make it an unreliable indicator for science when applied fully automatically. 
 The sensitivity of parameter tuning for the underlying LDA model may partly explain divergencies when measrung Rao across different FH and MPG institutes.
 
-picture Figure 1. The introduction of innovations and their subsequent uptake.
-![foxdemo](https://github.com/azielinskiACC/eval_SIPER_sentiments/edit/main/assets/images/avatar.png)
+picture Figure 1. Distribution of Languages in the SIPER Corpus.
+![DATA](https://github.com/azielinskiACC/eval_SIPER_sentiments/SiperLanguagesData.png)
 
 ## Code
 With the provided code the sentiment and confidence can be constructed from the SIPER evaluation reports.
