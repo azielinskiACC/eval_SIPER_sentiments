@@ -48,7 +48,7 @@ Sentiment Analysis for the file above, including 196363 Hits (sentences). Am exa
 
 | Sentiment   |  Sentence                                                             |           Parse Tree            | 
 | :---------- |:----------------------------------------------------------------------|:-------------------------------:|
-| Moderate    |	Given the current economic conditions, *the risks of not achieving* the full public sector legacy targets are considered to be *moderate *for all three funds | ![foxdemo](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/parse1.png) |
+| Moderate    |	Given the current economic conditions, *the risks of not achieving* the full public sector legacy targets are considered to be *moderate *for all three funds | ![foxdemo](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/Parse1.png) |
 | Positive    |	12 Final report dallas baseline *economic* *evaluation* Marc | |
 
 We implement the above by ... In particular, we r. The first is 
