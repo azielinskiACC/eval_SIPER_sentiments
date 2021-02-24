@@ -43,6 +43,13 @@ We seek to compute the sentiment for each sentence for each document language-wi
 
 
 	
+* SentimentEvaluationsSIPER.java
+Sentiment Analysis for the file above, including 196363 Hits (sentences). Am example is displayed below:
+
+| Sentiment   |  Sentence |
+| :---------- |:-----------------------------------------------------------------------------------------------------:|
+| Positive    |	12 Final report dallas baseline *economic* *evaluation* March 2013 Figure 1: Types of organisations/individuals within the independent living sector according to sector experts Type of organisation Description Producers: Technology Tunstall, quoted by most sector experts as the dominant player; based numerous small start-ups with very innovative high-tech solutions; organisations established companies with smaller shares include Tynetec, Chubb and Bosch; also BT, O2, Microsoft etc, who are beginning to get involved on the communications front. |
+| Moderate    |	Given the current economic conditions, *the risks of not achieving* the full public sector legacy targets are considered to be *moderate *for all three funds |
 
 
 We implement the above by ... In particular, we r. The first is 
