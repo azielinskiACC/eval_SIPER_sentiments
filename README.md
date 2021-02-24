@@ -23,11 +23,8 @@ With the provided code the sentiment and confidence can be constructed from the 
 
 * **LanguageDetectionTIKA.java:** For classification of documents based on n-grams and word sets based on TIKA, a language detection tool for 18 languages. Files are read from a directory and split into subdirecrtory by language. [https://www.tutorialspoint.com/tika/tika_language_detection.htm]
 * **GetSentencesFittingPerformanceCategories.java:** Extracts all sentences from a directory of SIPER documents that have at least one term in common with the performance thesaurus.
-* **proquest-skipgrams.py:** Code to learn the concept embeddings to find out which are distal or proximal linkages.
-* **obtain_innovation_years_proquest_msearch_chunks_only_hits_filtered.py:** Looks up each dyad and dumps when it was first introduced, introduced thesis ID and future uptakes for that dyad.
-* **merge_innovations_uptakes_files.py:** Aggregates uptakes etc. by thesis ID.
-* **merge_innovations_uptakes_files.py:** Runs Structural Topic Models at specified range of K (50-1000 in the paper).
-* **concepts_k500_50.R:** Extracts concepts from the structural topic model output, the number of words, topics, and FREX weighing can be adjusted in the code to get at the differend K/FREX scenarios.
+* **SentimentEvaluationSIPER.java:** Code to calculate the sentiment of a sentence. Only positive and negative statements are relevant, while neutral sentences will not be considered during the further processing.
+
 
 ## Logic for computing the Polarity of the Sentences
 We seek to compute the sentiment for each sentence for each document language-wise. To find the uptake of an evaluation concept, we first find them on a simple keyword analysis  as a given set of terms. This is a baseline and can be implemented in many ways based on your needs. Below we point to one such implementation that was suited for compute a sample of evaluation reports. Note that the below implementation requires customization because of error-prone pdf-to-text conversion. We chose this approach because it considers negation and modifier/argument structures that are needed for identifying sentiments of evaluation cartegories.
@@ -49,7 +46,8 @@ Sentiment Analysis for the file above, including 196363 Hits (sentences). Am exa
 | Sentiment   |  Sentence                                                             |           Parse Tree            | 
 | :---------- |:----------------------------------------------------------------------|:-------------------------------:|
 | Moderate    |	Given the current economic conditions, the risks of not achieving the full public sector legacy targets are considered to be moderate for all three funds | ![foxdemo](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/Parse1.png) |
-| Positive    |	Both the review and the evaluation of the NANOMAT programme stressed the need for more generous long-term funding and that increased efforts were needed to harvest commercial results in the form of patents, new companies and innovations to a greater extent than was achieved under the NANOMAT programme. | [foxdemo3](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/Parse2.png)|
+| Positive    |	Both the review and the evaluation of the NANOMAT programme stressed the need for more generous long-term funding and that increased efforts were needed to harvest commercial results in the form of patents, new companies and innovations to a greater extent than was achieved under the NANOMAT programme. | 
+[foxdemo3](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/Parse2.png) |
 
 
 
