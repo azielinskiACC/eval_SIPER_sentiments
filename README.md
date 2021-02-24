@@ -45,9 +45,8 @@ Sentiment Analysis for the file above, including 196363 Hits (sentences). Am exa
 
 | Sentiment   |  Sentence                                                             |           Parse Tree            | 
 | :---------- |:----------------------------------------------------------------------|:-------------------------------:|
-| Moderate    |	Given the current economic conditions, the risks of not achieving the full public sector legacy targets are considered to be moderate for all three funds | ![foxdemo](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/Parse1.png) |
-| Positive    |	Both the review and the evaluation of the NANOMAT programme stressed the need for more generous long-term funding and that increased efforts were needed to harvest commercial results in the form of patents, new companies and innovations to a greater extent than was achieved under the NANOMAT programme. | 
-[foxdemo3](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/Parse2.png) |
+| Moderate    |	Given the current economic conditions, the risks of not achieving the full public sector legacy targets are considered to be moderate for all three funds | ![foxdemo6](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/Parse1.png) |
+| Positive    |	Both the review and the evaluation of the NANOMAT programme stressed the need for more generous long-term funding and that increased efforts were needed to harvest commercial results in the form of patents, new companies and innovations to a greater extent than was achieved under the NANOMAT programme. | ![foxdemo5](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/Parse2.png) |
 
 
 
