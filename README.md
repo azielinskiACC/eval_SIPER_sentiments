@@ -29,8 +29,8 @@ With the provided code the sentiment and confidence can be constructed from the 
 * **merge_innovations_uptakes_files.py:** Runs Structural Topic Models at specified range of K (50-1000 in the paper).
 * **concepts_k500_50.R:** Extracts concepts from the structural topic model output, the number of words, topics, and FREX weighing can be adjusted in the code to get at the differend K/FREX scenarios.
 
-## Logic for computing novelty and uptake
-We seek to compute the sentiment for each sentence for each document language-wise. To find the uptake of an evaluation concept, we first find the . This logic an be implemented in many ways based on your needs. Below we point to one such implementation that was suited for compute infrastructure. Note that the below implementation by its design requires customization because of the heavy setup needed. We chose this approach because envisioned future projects that needed this anyways where we needed efficient ways of identifying evaluation cartegories a given set of terms.
+## Logic for computing the Polarity of the Sentences
+We seek to compute the sentiment for each sentence for each document language-wise. To find the uptake of an evaluation concept, we first find them on a simple keyword analysis  as a given set of terms. This is a baseline and can be implemented in many ways based on your needs. Below we point to one such implementation that was suited for compute a sample of evaluation reports. Note that the below implementation requires customization because of error-prone pdf-to-text conversion. We chose this approach because it considers negation and modifier/argument structures that are needed for identifying sentiments of evaluation cartegories.
 
 * GetSentencesFittingPerformanceCategories.java
 196363 Hits (sentences) have been extracted, containing one or more hits. Am example is displayed below:
@@ -48,11 +48,10 @@ Sentiment Analysis for the file above, including 196363 Hits (sentences). Am exa
 
 | Sentiment   |  Sentence                                                             |           Parse Tree            | 
 | :---------- |:----------------------------------------------------------------------|:-------------------------------:|
-| Moderate    |	Given the current economic conditions, *the risks of not achieving* the full public sector legacy targets are considered to be *moderate *for all three funds | ![foxdemo](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/Parse1.png) |
-| Positive    |	12 Final report dallas baseline *economic* *evaluation* Marc | |
+| Moderate    |	Given the current economic conditions, the risks of not achieving the full public sector legacy targets are considered to be moderate for all three funds | ![foxdemo](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/Parse1.png) |
+| Positive    |	Both the review and the evaluation of the NANOMAT programme stressed the need for more generous long-term funding and that increased efforts were needed to harvest commercial results in the form of patents, new companies and innovations to a greater extent than was achieved under the NANOMAT programme. | [foxdemo](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/Parse2.png)|
 
-We implement the above by ... In particular, we r. The first is 
-We had to do this in chunks because of restricted memory/compute requirements. The outputs of these are then just aggregated across each thesis to obtain (a) The number of links (b) the total uptakes of dyads and the (c) mean distal score introduced by the thesis.
+
 
 ## Data
 ### For raw data 
