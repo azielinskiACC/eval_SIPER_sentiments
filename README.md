@@ -47,6 +47,38 @@ Sentiment Analysis for the file above, including 196363 Hits (sentences). Am exa
 | :---------- |:----------------------------------------------------------------------|:-------------------------------:|
 | Moderate    |	Given the current economic conditions, the risks of not achieving the full public sector legacy targets are considered to be moderate for all three funds | ![foxdemo6](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/Parse1.png) |
 | Positive    |	Both the review and the evaluation of the NANOMAT programme stressed the need for more generous long-term funding and that increased efforts were needed to harvest commercial results in the form of patents, new companies and innovations to a greater extent than was achieved under the NANOMAT programme. | ![foxdemo5](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/Parse2.png) |
+| Negative     | There are very few pockets of activity among the research programs that do not meet the organization's high standard of excellence. |    | 
+| Negative     | In the absence of a logic model, it is difficult to ascertain whether or not the CRC is meeting its expected outcomes.  |    |
+| Neutral      | There is some evidence to demonstrate that the CRC is making progress towards its stated objectives. |   |
+| Neutral      | However, the program needs to improve its performance measurement. |  |
+| Neutral      | Multiple lines of evidence suggest that clients benefit from the CRC's unbiased advice in terms of scientific findings, technical solutions and IP licensing. |   | 
+| Negative     | However, a more robust client/business development function is required. |   | 
+| Negative     | It is currently not possible to track expenditures and resource use on individual research projects, largely due to the absence of a time tracking system for researchers. |   | 
+| Negative     | This makes it difficult to determine the true cost of services provided to clients.|   | 
+| Neutral      | These systems are in use in other Government of Canada research centres.
+| Neutral      | The CRC's governance model is in line with Treasury Board policies and the organization is maximizing the recovery of costs.|   | 
+| Negative     | However, the governance model is not optimal as it detracts from the organization's ability to focus on its stated research mission.|   | 
+| Negative     | Further, the campus is in need of major investments to head off mounting health and safety issues which may put the governance model at risk.|   | 
+| Neutral      | The corporate costs are relatively high compared with other federal research centres, however, some of the organization's corporate services are allocated to supporting tenant services.|   | 
+| Positive     | Efficiencies in corporate costs may be gained if some functions were consolidated, centralized, or outsourced.|   | 
+| Negative     | This makes it difficult to determine the true cost of services provided to clients.|   | 
+| Negative     | Research activities at the CRC are not functioning at optimal levels, largely due to an organizational structure that is based on historical precedents and legacy responsibilities.|   | 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
