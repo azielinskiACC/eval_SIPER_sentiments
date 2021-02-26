@@ -29,6 +29,8 @@ With the provided code the sentiment and confidence can be constructed from the 
 ## Logic for computing the Polarity of the Sentences
 We seek to compute the sentiment for each sentence for each document language-wise. To find the uptake of an evaluation concept, we first find them on a simple keyword analysis  as a given set of terms. This is a baseline and can be implemented in many ways based on your needs. Below we point to one such implementation that was suited for compute a sample of evaluation reports. Note that the below implementation requires customization because of error-prone pdf-to-text conversion. We chose this approach because it considers negation and modifier/argument structures that are needed for identifying sentiments of evaluation cartegories.
 
+###Filtering out Relevant Sentences###	
+
 * GetSentencesFittingPerformanceCategories.java
 196363 Hits (sentences) have been extracted, containing one or more hits. Am example is displayed below:
 
@@ -39,7 +41,7 @@ We seek to compute the sentiment for each sentence for each document language-wi
 | 2017-405.cermtxt    | 2 | list, transparent | No list of consultees is given so there is no transparent justification for this assumptions. | 
 
 
-	
+###Machine-Learning based methods###	
 * SentimentEvaluationsSIPER.java
 Sentiment Analysis for the file above, including 196363 Hits (sentences). An example is displayed below:
 
@@ -73,6 +75,8 @@ Each tree will have a sentiment score from "STRONG_NEGATIVE", "WEAK_NEGATIVE", "
 * Evaluation:
 *Accuracy: 62,5%*
 
+###Lexicon based methods###
+SentiWordNet is used as sentiment lexicon. It associates terms with sentiment polarity (negative, positive or neutral) by using a numerical score that is an indicator of sentiment strength and dimension. Sentiment bearing words are highlighted in the esample below.
 
 * SentiWordNET_SIPER.python
 Sentiment Analysis for a sample sentences (no word sense disambiguation; Scores are summed up over all senses). An example is displayed below:
