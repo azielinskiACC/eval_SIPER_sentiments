@@ -76,7 +76,7 @@ Each tree will have a sentiment score from "STRONG_NEGATIVE", "WEAK_NEGATIVE", "
 *Accuracy: 62,5%*
 
 ### Lexicon based methods
-SentiWordNet is used as sentiment lexicon. It associates terms with sentiment polarity (negative, positive or neutral) by using a numerical score that is an indicator of sentiment strength and dimension. Sentiment bearing words are highlighted in the esample below.
+SentiWordNet is used as sentiment lexicon. It associates terms with sentiment polarity (negative, positive or neutral) by using a numerical score that is an indicator of sentiment strength and dimension. Scores for sentiment bearing words from the performance Ontology/Thesaurus are listed in the table below.
 
 
 | SentiWordNet Term                             |  
@@ -87,10 +87,13 @@ SentiWordNet is used as sentiment lexicon. It associates terms with sentiment po
 | ambitious.a.01: PosScore=0.5 NegScore=0.125   |
 | ambitious.s.02: PosScore=0.125 NegScore=0.5   |
 | ambitiously.r.01: PosScore=0.375 NegScore=0.0 |
+| appropriateness.n.02: PosScore=0.625 NegScore=0.0 | 
+| attract.v.02: PosScore=0.625 NegScore=0.0     | 
 | ...                                           |
 | unexpected.a.01: PosScore=0.125 NegScore=0.375 |
 | unintentionally.r.01: PosScore=0.25 NegScore=0.125  |
  
+ * 1.114 Terms found (includings multiple word senses)
  * Sum Overall:  *Positive* 139.667, *Negative* 67.583
 
 * SentiWordNET_SIPER.python
