@@ -70,7 +70,8 @@ Each tree will have a sentiment score from "STRONG_NEGATIVE", "WEAK_NEGATIVE", "
 | Negative     | This makes it difficult to determine the true cost of services provided to clients.| NEGATIVE  |  
 | Negative     | Research activities at the CRC are not functioning at optimal levels, largely due to an organizational structure that is based on historical precedents and legacy responsibilities.| NEGATIVE  | 
 
-
+* Evaluation:
+*Accuracy: 62,5%*
 
 
 
