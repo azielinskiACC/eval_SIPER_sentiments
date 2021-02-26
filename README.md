@@ -77,9 +77,9 @@ Each tree will have a sentiment score from "STRONG_NEGATIVE", "WEAK_NEGATIVE", "
 * SentiWordNET_SIPER.python
 Sentiment Analysis for a sample sentences (no word sense disambiguation; Scores are summed up over all senses). An example is displayed below:
 
-| Sentiment      |  Sentence                                                             |           Details            | 
-| :------------- |:----------------------------------------------------------------------|:-------------------------------:|
-| Positive: 2.0 Negative: 2.25   |	Given the *current* *economic* conditions, the risks of *not* achieving the *full* public sector legacy targets are considered to be *moderate* for all three funds | current.n.01: PosScore=0.0 NegScore=0.0, economic.s.03: PosScore=0.75 NegScore=0, not.r.01: PosScore=0.0 NegScore=0.625, full.a.01: PosScore=0.0 NegScore=0.0 , moderate.s.03: PosScore=0.875 NegScore=1.0|
+| Sentiment      |  Sentence                                                                 |           Details            | 
+| :------------- |:--------------------------------------------------------------------------|:-------------------------------:|
+| Moderate   |	Given the *current* *economic* conditions, the risks of *not* achieving the *full* public sector legacy targets are considered to be *moderate* for all three funds | current.n.01: PosScore=0.0 NegScore=0.0, economic.s.03: PosScore=0.75 NegScore=0, not.r.01: PosScore=0.0 NegScore=0.625, full.a.01: PosScore=0.0 NegScore=0.0 , moderate.s.03: PosScore=0.875 NegScore=1.0|
 
 
 
