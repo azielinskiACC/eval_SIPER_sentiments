@@ -6,10 +6,18 @@ If you use any of the code or ideas presented here, please cite our paper:
 
 ## In a nutshell
 By analyzing data from the SIPER repository for sentiment, this paper finds that ?? can be predicted best with algorithm Y. We explore and evaluate diverse methods for modeling sentiment:
+* *Lexicon-Based Classifier + SentiWordNet* 
 * Hand-built feature functions with (mostly linear) classifiers
 * Dense feature representations derived from VSMs as we built them in the previous unit
 * Recurrent neural networks (RNNs)
-* Tree-structured neural networks
+* *Tree-structured neural networks*
+* Bag-of-Words + L2 regularized Logistic Regression
+* Averaged Embeddings + L2 regularized Logistic Regression
+* Retrofitted Embeddings + L2 regularized Logistic Regression
+* max, min, ave Sentiment Embeddings + L2 regularized Logistic Regression
+* LSTM
+* BiLSTM
+* CNN
 Begin discussing and implementing responsible methods for hyperparameter optimization and classifier assessment and comparison.
 
 The unit is built around the Stanford Sentiment Treebank (SST), a widely-used resource for evaluating supervised NLU models, and one that provides rich linguistic representations.
