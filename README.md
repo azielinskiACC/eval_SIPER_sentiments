@@ -60,6 +60,9 @@ Sentiment Analysis for the file above, including 196363 Hits (sentences). An exa
 
 
 Each tree will have a sentiment score from "STRONG_NEGATIVE", "WEAK_NEGATIVE", "NEUTRAL", "WEAK_POSITIVE", "STRONG_POSITIVE"
+Non-opinonated sentences express factual information without any attitude towards the information.
+Non-opinonated does not mean that it does not includes a positive or negativ e fact.
+
 
 | Sentiment   |  Sentence                                                             |   Label  (Manually assigned)          | 
 | :---------- |:----------------------------------------------------------------------|:-------------------------------:|
