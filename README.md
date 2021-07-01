@@ -1,8 +1,11 @@
 # The Sentiment Analysis for SIPER Evaluation Reports
-This repository contains code and data associated with “SIPER Project in ISDEC.” PDF can be found here
-
-If you use any of the code or ideas presented here, please cite our paper:
-* TODO
+This repository contains code and data associated with “SIPER Project in ISDEC.” 
+A general overview of the investigated methods is shown in the Figure below:
+#PDF can be found here
+#If you use any of the code or ideas presented here, please cite our paper:
+#* TODO
+Figure 1.
+![foxdemo6](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/MethodsSiper.png)
 
 ## In a nutshell
 By analyzing data from the SIPER repository for sentiment, this paper finds that ?? can be predicted best with algorithm Y. We explore and evaluate diverse methods for modeling sentiment:
