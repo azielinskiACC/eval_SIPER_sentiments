@@ -1,7 +1,7 @@
 # The Sentiment Analysis for SIPER Evaluation Reports
 This repository contains code and data associated with “SIPER Project in ISDEC.” 
 
-Sentiment Analysis tasks
+## Sentiment Analysis Tasks
  
 ![image](https://user-images.githubusercontent.com/30433567/124108790-c4e82680-da66-11eb-9393-f6651129f234.png)
 
