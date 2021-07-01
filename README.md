@@ -2,16 +2,7 @@
 This repository contains code and data associated with “SIPER Project in ISDEC.” 
 
 Sentiment Analysis tasks
-
-Sentence or Document Level Sentiment Analysis
-* decide whether a given text is of positive, negative, neutral.
-* Text Classification Task
-* Label the whole text (or a section).
-
-Aspect-Level Sentiment Analysis:
-* decide whether a given text contains a specific aspect that is of positive, negative, neutral.
-* Sequence Labeling Task
-* Label each word or token in the text  
+ 
 ![image](https://user-images.githubusercontent.com/30433567/124108790-c4e82680-da66-11eb-9393-f6651129f234.png)
 
 
