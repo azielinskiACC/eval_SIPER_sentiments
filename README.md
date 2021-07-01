@@ -2,11 +2,18 @@
 This repository contains code and data associated with “SIPER Project in ISDEC.” 
 
 ## Sentiment Analysis Tasks
- 
-![image](https://user-images.githubusercontent.com/30433567/124108790-c4e82680-da66-11eb-9393-f6651129f234.png)
 
+PART 1: Sentence or Document Level Sentiment Analysis
+decide whether a given text is of positive, negative, neutral.
+Text Classification Task
+Label the whole text (or a section).
 
-## In a nutshell
+PART 2: Aspect-Level Sentiment Analysis:
+decide whether a given text contains a specific aspect that is of positive, negative, neutral.
+Sequence Labeling Task
+Label each word or token in the text  
+
+## In a nutshell (PART 1)
 By analyzing data from the SIPER repository for sentiment, this paper finds that ?? can be predicted best with algorithm Y. We explore and evaluate diverse methods for modeling sentiment. An overview of the investigated methods is shown in the Figure below:
 ![foxdemo6](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/MethodsSiper.png)
 
@@ -18,6 +25,13 @@ By analyzing data from the SIPER repository for sentiment, this paper finds that
 * LSTM
 * BiLSTM
 * CNN
+
+## In a nutshell (PART 2)
+By analyzing data from the SIPER repository for sentiment, this paper finds that ?? can be predicted best with algorithm Y. We explore and evaluate diverse methods for modeling sentiment. An overview of the investigated methods is shown in the Figure below:
+
+* 1 Vanilla Sequence to Sequence
+* 2 Jointly Sequence to Sequence and Sequence Labeling 
+
 
 
 Begin discussing and implementing responsible methods for hyperparameter optimization and classifier assessment and comparison.
