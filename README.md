@@ -1,26 +1,34 @@
 # The Sentiment Analysis for SIPER Evaluation Reports
 This repository contains code and data associated with “SIPER Project in ISDEC.” 
-A general overview of the investigated methods is shown in the Figure below:
-#PDF can be found here
-#If you use any of the code or ideas presented here, please cite our paper:
-#* TODO
-Figure 1.
-![foxdemo6](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/MethodsSiper.png)
+
+Sentiment Analysis tasks
+
+Sentence or Document Level Sentiment Analysis
+* decide whether a given text is of positive, negative, neutral.
+* Text Classification Task
+* Label the whole text (or a section).
+
+Aspect-Level Sentiment Analysis:
+* decide whether a given text contains a specific aspect that is of positive, negative, neutral.
+* Sequence Labeling Task
+* Label each word or token in the text  
+![image](https://user-images.githubusercontent.com/30433567/124108790-c4e82680-da66-11eb-9393-f6651129f234.png)
+
 
 ## In a nutshell
-By analyzing data from the SIPER repository for sentiment, this paper finds that ?? can be predicted best with algorithm Y. We explore and evaluate diverse methods for modeling sentiment:
-* *Lexicon-Based Classifier + SentiWordNet* 
-* Hand-built feature functions with (mostly linear) classifiers
-* Dense feature representations derived from VSMs as we built them in the previous unit
-* Recurrent neural networks (RNNs)
-* *Tree-structured neural networks*
-* Bag-of-Words + L2 regularized Logistic Regression
-* Averaged Embeddings + L2 regularized Logistic Regression
-* Retrofitted Embeddings + L2 regularized Logistic Regression
-* max, min, ave Sentiment Embeddings + L2 regularized Logistic Regression
+By analyzing data from the SIPER repository for sentiment, this paper finds that ?? can be predicted best with algorithm Y. We explore and evaluate diverse methods for modeling sentiment. An overview of the investigated methods is shown in the Figure below:
+![foxdemo6](https://github.com/azielinskiACC/eval_SIPER_sentiments/blob/main/MethodsSiper.png)
+
+* 1 Hand-built feature functions with (mostly linear) classifiers (Feature-based Text Classification (Naive Bayes, etc.), Bag-of-Words Model)
+* 2 Pre-trained word embeddings in combination with a supervised classifier 
+* 3 *Lexicon-Based Classifier + SentiWordNet* 
+* 4 *Tree-structured neural networks*: Stanford Sentiment Classification based on Recurrent neural networks (RNNs)
+* 5 Sentiment Analysis with Pretrained Transformers 
 * LSTM
 * BiLSTM
 * CNN
+
+
 Begin discussing and implementing responsible methods for hyperparameter optimization and classifier assessment and comparison.
 
 The unit is built around the Stanford Sentiment Treebank (SST), a widely-used resource for evaluating supervised NLU models, and one that provides rich linguistic representations.
